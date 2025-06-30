@@ -5,20 +5,9 @@
 - **Java 21** instalado (JDK 21 ou superior)
 - Terminal ou prompt de comando
 
-## Estrutura do Projeto
-
-```
-projeto-socket/
-  ├── src/
-  │   ├── Servidor.java
-  │   └── Cliente.java
-  ├── COMO_COMPILAR.md
-  └── README.md
-```
-
 ## Compilando os Arquivos
 
-Abra o terminal na raiz do projeto (onde está a pasta `src`).
+Abra o terminal na raiz do projeto.
 
 ### 1. Compilar o Servidor e o Cliente
 
@@ -39,7 +28,6 @@ No terminal, execute:
 ```sh
 java -cp bin Servidor
 ```
-
 O servidor ficará aguardando conexões na porta 5000.
 
 ## Executando o Cliente
